@@ -1,0 +1,40 @@
+#AddContactForm {
+    width: 100%;
+}
+
+#AddContactForm input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+#submit-btn {
+    width: 100%;
+}
+
+#AddContactForm input[type='submit'] {
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(180, 180, 180);
+    background-color: rgb(63, 61, 216);
+    color: white;
+    font-size: 1.25rem;
+}
+
+#AddContactForm input[type='submit']:hover {
+    cursor: pointer;
+    animation-name: delay;
+    animation-duration: 1s;
+}
+
+@keyframes delay {
+    100% {
+        background-color: rgb(44, 42, 148);
+    }
+}

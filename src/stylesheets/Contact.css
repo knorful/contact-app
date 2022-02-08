@@ -1,0 +1,26 @@
+#Contact {
+    margin-bottom: 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#Contact p {
+    margin: 5px 0;
+}
+
+#Contact:hover {
+    cursor: pointer;
+}
+
+#edit-btn {
+    margin-bottom: 5px;
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#edit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
